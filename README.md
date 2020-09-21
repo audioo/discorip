@@ -23,6 +23,9 @@
 5. Replace the **melissaKey** value with the key you copied from the Melissa [User Account](https://www.melissa.com/user/user_account.aspx) page.
 6. All done!
 
+**NOTE**
+It is likely that the lookups will return the code GE09 which is thrown when an account isnt being recognized or doesnt exist. In the case of not being recognized, that occurs sometimes when an is just made. It takes up to 3-4 hours for the account keys to be replicated arcross the array.
+
 
 ## Using discorip with multiple accounts
 
