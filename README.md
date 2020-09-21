@@ -7,7 +7,7 @@
 ## Installation 
 
 1. Visit https://nodejs.org/en/ and download version 10+.
-2. Download and extract the contents of this Github repository.
+2. Download and extract the contents of the [latest release](https://github.com/audioo/discorip/releases/tag/1.0.0).
 3. Navigate to the extracted folder, then into the child folder 'util' and open **config.json** in your preferred text editor.
 4. Fill in the token field with your discord token. Save your changes and then exit the file.
 5. Run **install.bat**. If this doesn't work, open CMD and navigate to the project folder, then type **npm install** and press **Enter**.
