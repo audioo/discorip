@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { RichEmbed } = require("discord.js");
 module.exports.run = (client, msg, args, config) => {
-  let array = ["info", "rip", "server", "user"];
+  let array = ["info", "rip", "server", "user", "activities", "raid"];
   let query = args[0];
 
   if (!client.commands.get(query) && !array.includes(query)) {
