@@ -4,7 +4,7 @@
   "//3": "updating this file will download and update your packages",
   "name": "discorip",
   "version": "0.0.1",
-  "description": "A purely utilitarian selfbot, with the sole intention of gathering information through Discord.",
+  "description": "A purely utilitarian discord selfbot written with NodeJS.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
