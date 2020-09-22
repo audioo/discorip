@@ -6,6 +6,7 @@
 
 ## Features
 - No Nonsense
+- Easy Setup
 - Raid Tools
 - Lookups (email, ipv4, phone, etc...)
 - Custom Status
