@@ -45,7 +45,9 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
       **example: "tokens": ‎‎["token1, "token2", "token3"]‎‎**
 
 ## Commands
-**PREFIX:** ;
+**PREFIX:** 
+     
+     (   ;   )
 
 **RIP MODULE:**
      
