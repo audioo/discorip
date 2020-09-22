@@ -1,6 +1,6 @@
 ![discorip](./resources/banner.jpg)
 # discorip
-![s](https://img.shields.io/badge/release-v1.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;21,&nbsp;2020-blue)
+![s](https://img.shields.io/badge/release-v2-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;21,&nbsp;2020-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
@@ -42,5 +42,63 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
 2. Add more values to the token table, separated by commas.
 
       **example: "tokens": ‎‎["token1, "token2", "token3"]‎‎**
+
+## Commands
+**PREFIX:** ;
+
+**RIP MODULE:**
+     
+     - check-host
+     
+     - companylookup
+     
+     - emaillookup
+     
+     - iplookup
+     
+     - phonelookup
+
+**USER MODULE:**
+     
+     - avatar
+     
+     - whois
+     
+     - token
+
+**SERVER MODULE:**
+     
+     - server-channels
+     
+     - server-roles
+     
+     - server-info
+
+**RAID MODULE:**
+     
+     - raid-server-inflate
+     
+     - raid-channel-delete
+     
+     - raid-user-ban
+
+**INFO MODULE:**
+     
+     - about
+     
+     - help
+     
+     - uptime
+     
+**ACTIVITIES MODULE:**
+     
+     - playing
+     
+     - watching
+     
+     - listening
+     
+     - streaming
+
 
 # Jacked by audio. Message audio#0580 with any inquiries.
