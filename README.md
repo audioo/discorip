@@ -1,8 +1,17 @@
-![discorip](./resources/banner2.jpg)
+![discorip](./resources/banner.jpg)
 # discorip
 ![s](https://img.shields.io/badge/release-v1.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;21,&nbsp;2020-blue)
 
-## Selfbot made in NodeJS, with the sole intention of gathering information through discord.
+## Utilitarian Selfbot made in NodeJS.
+
+## Features
+- No Nonsense
+- Raid Tools
+- Lookups (email, ipv4, phone, etc...)
+- Custom Status
+- Hidden Server Information
+- User Information
+- More to come!
 
 ## Installation 
 
