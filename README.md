@@ -104,4 +104,4 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      - streaming
 
 
-# Jacked by audio. Message audio#0580 with any inquiries.
+# INQUIRIES --> [DISCORD SERVER](https://discord.gg/zcen45b). 
