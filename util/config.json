@@ -1,5 +1,12 @@
 {
     "prefix": ";",
     "allowOtherPeople": false,
-    "tokens": ["YourTokenHere"]
+    "tokens": ["yourTokenHere"],
+	"melissaKey": "yourMelissaKeyHere",
+	"preset0": "audio#8391",
+	"preset1": "Jacked by Audio",
+	"preset2": "https://github.com/audioo/discorip",
+	"preset3": "discorip selfbot",
+	"preset4": "ripped.",
+	"preset5": "All done."
 }
