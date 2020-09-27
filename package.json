@@ -16,7 +16,8 @@
     "is-reachable": "^4.0.0",
     "moment": "^2.24.0",
     "ms": "^2.1.2",
-    "package.json": "^2.0.1"
+    "package.json": "^2.0.1",
+    "node-superfetch": "^0.1.10"
   },
   "engines": {
     "node": "12.x"
