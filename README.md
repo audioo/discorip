@@ -1,10 +1,10 @@
 ![discorip](./resources/banner.jpg)
 # discorip
-![s](https://img.shields.io/badge/release-v2-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;22,&nbsp;2020-blue)
+![s](https://img.shields.io/badge/release-v2-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;26,&nbsp;2020-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
-**DISCLAIMER:** Automating normal user accounts (generally called "self-bots") outside of the OAuth2/bot API is forbidden, and can result in an account termination if found. Read the article [here](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-)
+**DISCLAIMER:** Automating normal user accounts (generally called "self-bots") outside of the OAuth2/bot API is forbidden, and can result in an account termination if found. Read the article [here](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-).
 
 ## Features
 - No Nonsense
