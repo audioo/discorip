@@ -4,6 +4,8 @@
 
 ## Utilitarian Selfbot made in NodeJS.
 
+**DISCLAIMER:** Automating normal user accounts (generally called "self-bots") outside of the OAuth2/bot API is forbidden, and can result in an account termination if found. Read the article [here](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-)
+
 ## Features
 - No Nonsense
 - Easy Setup
@@ -12,6 +14,8 @@
 - Custom Status
 - Hidden Server Information
 - User Information
+- Bot Farming
+- DM Tools
 - More to come!
 
 ## Installation 
@@ -29,7 +33,7 @@
 1. Create an account on [Melissa](https://www.melissa.com/).
 2. After you have created an account, navigate to the [User Account](https://www.melissa.com/user/user_account.aspx) page.
 3. On the [User Account](https://www.melissa.com/user/user_account.aspx) page, look for **License Key Using Credits** and copy the corresponding value.
-4. From the root directory of discorip, navigate to *modules* -> *rip* -> and proceed to open **ripConfig.json** in your preferred text editor.
+4. From the root directory of discorip, navigate to *util* -> and proceed to open **config.json** in your preferred text editor.
 5. Replace the **melissaKey** value with the key you copied from the Melissa [User Account](https://www.melissa.com/user/user_account.aspx) page.
 6. All done!
 
@@ -61,13 +65,19 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      
      - phonelookup
 
-**USER MODULE:**
+**CLIENT MODULE:**
      
      - avatar
      
      - whois
      
      - token
+     
+     - dm-ids
+     
+     - dm-purge
+     
+     - all-server-emojis
 
 **SERVER MODULE:**
      
@@ -84,6 +94,8 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      - raid-channel-delete
      
      - raid-user-ban
+     
+     - raid-emoji-delete
 
 **INFO MODULE:**
      
@@ -93,15 +105,12 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      
      - uptime
      
-**ACTIVITIES MODULE:**
+**FARM MODULE:**
      
-     - playing
+     - mee6
      
-     - watching
+     - tatsumaki
      
-     - listening
-     
-     - streaming
 
 
 # INQUIRIES --> [DISCORD SERVER](https://discord.gg/zcen45b). 
