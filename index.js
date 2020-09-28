@@ -4,6 +4,7 @@ const { RichEmbed } = require('discord.js')
 const config = require('./util/config.json')
 for(let i = 0; i < config.tokens.length; i++) {
 
+console.log(`\x1b[47m`, `\x1b[30m`);
 
 let client = new Discord.Client()
 client.commands = new Discord.Collection()
