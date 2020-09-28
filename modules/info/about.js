@@ -4,7 +4,7 @@ module.exports.run = (client, msg, args, config) => {
   const embed = new RichEmbed()
     .setTitle(`**ABOUT DISCORIP**`)
     .setDescription(
-		`- Selfbot made in NodeJS, with the sole intention of gathering information through discord.\n- Message **audio#8391** with any inquiries.\n- Discord Server -> **zcen45b**`
+		`- Purely utilitarian selfbot made in NodeJS.\n- Message **audio#8391** with any inquiries.\n- Discord Server -> **zcen45b**`
     )
     .setColor("black");
 
