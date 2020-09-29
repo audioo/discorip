@@ -1,6 +1,6 @@
 ![discorip](./resources/banner.jpg)
 # discorip
-![s](https://img.shields.io/badge/release-v2-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;27,&nbsp;2020-blue)
+![s](https://img.shields.io/badge/release-v2-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;28,&nbsp;2020-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
@@ -78,6 +78,8 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      - dm-purge
      
      - all-server-emojis
+     
+     - embed
 
 **SERVER MODULE:**
      
