@@ -105,6 +105,8 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      
      - calculate
      
+     - cycle-activity
+     
      - farm-mee6
      
      - farm-tatsumaki
