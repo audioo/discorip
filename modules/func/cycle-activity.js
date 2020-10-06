@@ -3,6 +3,7 @@ let i = 0;
 module.exports.run = async (client, msg, args, config) => {
 
     if(!interval) {
+        if(!args[3]) return console.log('[+][MODULE] -> You need to input four words to cycle.')
         console.log('[+][MODULE] -> Cycling custom activities.')
         interval = setInterval(async function() { cycle(client, args) }, 10000)
         return;
