@@ -40,7 +40,7 @@
 **NOTE**
 It is likely that the lookups will return the code GE09 which is thrown when an account isnt being recognized or doesnt exist. In the case of not being recognized, that occurs sometimes when an is just made. It takes up to 3-4 hours for the account keys to be replicated arcross the array.
 
-## EXTRAS
+## Extras
 
      - Embed colors can be customized in your *config.json* file.
      - Server Inflate Presets can be customized in your *config.json* file.
