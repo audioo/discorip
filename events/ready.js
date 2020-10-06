@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
 module.exports = (client) => {
-    console.log(`Selfbot for ${client.user.tag} has been started.`)
+    console.log(`[+][SERVER] -> Selfbot for ${client.user.tag} has been started.`)
+	client.user.setActivity("discorip -> jnENWWp", {type: 'PLAYING'});
 }
