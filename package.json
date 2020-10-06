@@ -17,7 +17,11 @@
     "moment": "^2.24.0",
     "ms": "^2.1.2",
     "package.json": "^2.0.1",
-    "node-superfetch": "^0.1.10"
+    "node-superfetch": "^0.1.10",
+    "snoowrap": "^1.20.1",
+    "math-expression-evaluator": "^1.2.22",
+    "node-hwid": "^0.1.0",
+    "hwid": "^0.2.1"
   },
   "engines": {
     "node": "12.x"
