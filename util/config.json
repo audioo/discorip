@@ -1,12 +1,14 @@
 {
     "prefix": ";",
     "allowOtherPeople": false,
-    "tokens": ["yourTokenHere"],
-	"melissaKey": "yourMelissaKeyHere",
-	"preset0": "audio#8391",
-	"preset1": "Jacked by Audio",
-	"preset2": "https://github.com/audioo/discorip",
-	"preset3": "discorip selfbot",
-	"preset4": "ripped.",
-	"preset5": "All done."
+    "tokens": ["YourTokenHere"],
+    "melissaKey": "YourMelissaKeyHere",
+    "color": "BLACK",
+    "preset0": "audio#0001",
+    "preset1": "Jacked by Audio",
+    "preset2": "jnENWWp",
+    "preset3": "discorip selfbot",
+    "preset4": "ripped.",
+    "preset5": "All done."
 }
+
