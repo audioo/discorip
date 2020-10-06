@@ -1,10 +1,10 @@
 ![discorip](./resources/banner.jpg)
 # discorip
-![s](https://img.shields.io/badge/release-v2-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-september&nbsp;28,&nbsp;2020-blue)
+![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;6,&nbsp;2020-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
-**DISCLAIMER:** Automating normal user accounts (generally called "self-bots") outside of the OAuth2/bot API is forbidden, and can result in an account termination if found. Read the article [here](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-).
+**DISCLAIMER:** Automating normal user accounts (generally called "self-bots") outside of the OAuth2/bot API is forbidden, and can result in an account termination if found. Read the article [here](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-)
 
 ## Features
 - No Nonsense
@@ -40,6 +40,10 @@
 **NOTE**
 It is likely that the lookups will return the code GE09 which is thrown when an account isnt being recognized or doesnt exist. In the case of not being recognized, that occurs sometimes when an is just made. It takes up to 3-4 hours for the account keys to be replicated arcross the array.
 
+## EXTRAS
+
+     - Embed colors can be customized in your *config.json* file.
+     - Server Inflate Presets can be customized in your *config.json* file.
 
 ## Using discorip with multiple accounts
 
@@ -64,22 +68,18 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      - iplookup
      
      - phonelookup
+     
+     - raid-channel-delete
+     
+     - raid-emoji-delete
+     
+     - raid-server-inflate
+     
+     - raid-spam
 
-**CLIENT MODULE:**
+**CONFIG MODULE:**
      
-     - avatar
-     
-     - whois
-     
-     - token
-     
-     - dm-ids
-     
-     - dm-purge
-     
-     - all-server-emojis
-     
-     - embed
+     - shutdown
 
 **SERVER MODULE:**
      
@@ -88,16 +88,10 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      - server-roles
      
      - server-info
-
-**RAID MODULE:**
      
-     - raid-server-inflate
+     - server-channel-backup
      
-     - raid-channel-delete
-     
-     - raid-user-ban
-     
-     - raid-emoji-delete
+     - server-cb-restore
 
 **INFO MODULE:**
      
@@ -107,12 +101,32 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      
      - uptime
      
-**FARM MODULE:**
+**FUNC MODULE:**
      
-     - mee6
+     - calculate
      
-     - tatsumaki
+     - farm-mee6
+     
+     - farm-tatsumaki
+     
+     - get-avatar
+     
+     - get-emojis
+     
+     - get-hwid
+     
+     - get-token
+     
+     - purge-dms
+     
+     - send-embed
+     
+     - send-poll
+     
+     - snipe
+     
+     - whois
      
 
 
-# INQUIRIES --> [DISCORD SERVER](https://discord.gg/zcen45b). 
+# INQUIRIES --> [DISCORD SERVER](https://discord.gg/jnENWWp). 
