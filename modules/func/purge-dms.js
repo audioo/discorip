@@ -1,6 +1,7 @@
 const { RichEmbed } = require('discord.js')
 const { sleep } = require('../../util/Functions')
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
 
     let channels = client.channels.filter(c => c.type === "dm")
     let array = []
