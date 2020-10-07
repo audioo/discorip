@@ -1,5 +1,6 @@
 module.exports.run = async (client, msg, args, config) => {
 	console.log("[+][SERVER] -> Shutting down.");
+	msg.delete();
 	client.destroy();
 };
 
