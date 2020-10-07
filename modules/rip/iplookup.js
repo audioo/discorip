@@ -7,6 +7,10 @@ module.exports.run = (client, message, args) => {
   const embed = new RichEmbed();
   embed.setColor(config.color);
   embed.setTitle(`**IP LOOKUP**`);
+  embed.attachFiles(['././resources/ticon.png', '././resources/rightarrow.png']);
+  embed.setThumbnail('attachment://ticon.png');
+  embed.setFooter("discorip version " + config.version, 'attachment://rightarrow.png');
+  embed.setTimestamp();
   axios
     .get(`http://ip-api.com/json/${args[0]}?fields=66846719`)
     .then(function(response) {
