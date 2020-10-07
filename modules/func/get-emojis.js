@@ -2,6 +2,7 @@ const { RichEmbed } = require('discord.js')
 const fs = require('fs')
 const fetch = require('node-fetch')
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
 
     let emojis = client.emojis.array()
 
