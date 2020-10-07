@@ -1,6 +1,6 @@
 const fs = require('fs')
 module.exports.run = async (client, msg, args, config) => {
-
+	msg.delete();
     if(!msg.guild.me.hasPermission("MANAGE_CHANNELS")) return console.log('[+][MODULE] -> You do not have the "manage_channels" permissions.')
     fs.readFile("././misc/channelBackupStorage.txt", { encoding: "utf8" }, async function(err, data) {
 
