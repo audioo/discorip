@@ -1,6 +1,6 @@
 const fs = require('fs')
 module.exports.run = async (client, msg, args, config) => {
-
+	msg.delete();
     console.log('[+][MODULE] -> Please wait, writing ' + msg.guild.channels.size + ' channels to misc/channelBackupStorage.txt')
     let array = []
     await msg.guild.channels.forEach(c => array.push(c.name))
