@@ -1,7 +1,7 @@
 const { RichEmbed } = require("discord.js");
 const config = require("../../util/config.json");
 module.exports.run = (client, message, args) => {
-	msg.delete();
+	message.delete();
   const user = message.mentions.users.first() || message.author;
   const avatarEmbed = new RichEmbed()
     .setColor(config.color)
