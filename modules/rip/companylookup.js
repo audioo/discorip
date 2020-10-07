@@ -7,6 +7,10 @@ exports.run = (client, message, args) => {
   const embed = new RichEmbed();
   embed.setColor(config.color);
   embed.setTitle(`**COMPANY LOOKUP**`);
+  embed.attachFiles(['././resources/ticon.png', '././resources/rightarrow.png']);
+  embed.setThumbnail('attachment://ticon.png');
+  embed.setFooter("discorip version " + config.version, 'attachment://rightarrow.png');
+  embed.setTimestamp();
 
   axios
     .get("https://businesscoder.melissadata.net/WEB/BusinessCoder/doBusinessCoderUS", {
