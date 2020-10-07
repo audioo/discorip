@@ -1,5 +1,6 @@
 const config = require("../../util/config.json");
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
 	var server = msg.guild;
 	var count = 0;
 	var countstop = 0;
