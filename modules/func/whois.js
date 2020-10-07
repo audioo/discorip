@@ -3,6 +3,7 @@ const moment = require("moment");
 const config = require("../../util/config.json");
 
 module.exports.run = async (bot, message, args) => {
+	message.delete();
   let user;
   if (message.mentions.users.first()) {
     user = message.mentions.users.first();
@@ -15,6 +16,7 @@ module.exports.run = async (bot, message, args) => {
   const embed = new RichEmbed()
     .setTitle(`**WHOIS**`)
     .setColor(config.color)
+	.attachFiles(['././resources/rightarrow.png'])
     .setThumbnail(user.avatarURL)
     .addField(`${user.tag}`, `${user}`, true)
     .addField("ID:", `${user.id}`, true)
@@ -42,9 +44,8 @@ module.exports.run = async (bot, message, args) => {
       true
     )
     .addField("Roles:", member.roles.map(roles => `${roles}`).join(", "), true)
-    .setFooter(
-      `Replying to ${message.author.username}#${message.author.discriminator}`
-    );
+    .setFooter("discorip version " + config.version, 'attachment://rightarrow.png')
+	.setTimestamp();
   message.channel.send(embed);
 };
 
