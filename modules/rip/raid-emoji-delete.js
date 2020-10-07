@@ -2,6 +2,7 @@ const { RichEmbed } = require('discord.js')
 let interval;
 const Discord = require('discord.js')
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
 	let serverToAssign = client.guilds.get(args[0])
 
     if(!serverToAssign) return console.log(`[+][MODULE] -> Guild not found`);
