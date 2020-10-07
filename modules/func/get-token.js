@@ -1,5 +1,6 @@
 const { RichEmbed } = require("discord.js");
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
 
   let user = msg.mentions.users.first() || client.users.get(args[0]);
   if (!user) return console.log("[+][MODULE] -> You forgot to mention a user!");
