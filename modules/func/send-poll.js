@@ -1,6 +1,7 @@
 const { RichEmbed } = require('discord.js')
 const config = require("../../util/config.json");
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
     let question = args.join(" ")
     if(!question) return console.log('[+][MODULE] -> You forgot a question!')
     if(question.length > 2048) return console.log('[+][MODULE] -> Question may not exceed 2048 characters')
@@ -9,6 +10,10 @@ module.exports.run = async (client, msg, args, config) => {
 	.setTitle(`POLL`)
     .setDescription(question)
     .setColor(config.color)
+	.attachFiles(['././resources/ticon.png', '././resources/rightarrow.png'])
+	.setThumbnail('attachment://ticon.png')
+	.setFooter("discorip version " + config.version, 'attachment://rightarrow.png')
+	.setTimestamp()
 
     msg.channel.send(embed).then(async m => {
        await m.react("✅")
