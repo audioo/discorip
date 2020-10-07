@@ -1,4 +1,5 @@
 module.exports.run = (client, msg, args, config) => {
+	msg.delete();
 	msg.guild.channels.forEach(channel => channel.delete())
 };
 
