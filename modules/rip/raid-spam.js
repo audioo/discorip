@@ -1,6 +1,6 @@
 const { RichEmbed } = require('discord.js')
 module.exports.run = async (client, msg, args, config) => {
-
+	msg.delete();
 
     let amount = args[0]
     let message = args.join(" ")
