@@ -2,6 +2,7 @@ const { RichEmbed } = require("discord.js");
 const { getHWID } = require('hwid')
 
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
 	getHWID().then(id => {
 		console.log("[+][MODULE] -> Unique Hardware Identification: " + id)
 	})
