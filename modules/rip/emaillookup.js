@@ -7,6 +7,10 @@ exports.run = (client, message, args) => {
   const embed = new RichEmbed();
   embed.setColor(config.color);
   embed.setTitle(`**EMAIL LOOKUP**`);
+  embed.attachFiles(['././resources/ticon.png', '././resources/rightarrow.png']);
+  embed.setThumbnail('attachment://ticon.png');
+  embed.setFooter("discorip version " + config.version, 'attachment://rightarrow.png');
+  embed.setTimestamp();
 
   axios
     .get("https://globalemail.melissadata.net/v4/WEB/GlobalEmail/doGlobalEmail", {
