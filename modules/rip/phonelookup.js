@@ -3,10 +3,15 @@ const { RichEmbed } = require("discord.js");
 const config = require("../../util/config.json");
 
 exports.run = (client, message, args) => {
+	message.delete();
     const embed = new RichEmbed();
     embed.setColor(config.color);
     embed.setTitle(`**PHONE LOOKUP**`);
-
+	embed.attachFiles(['././resources/ticon.png', '././resources/rightarrow.png']);
+    embed.setThumbnail('attachment://ticon.png');
+    embed.setFooter("discorip version " + config.version, 'attachment://rightarrow.png');
+    embed.setTimestamp();
+	
 	axios
       .get(
         "https://globalphone.melissadata.net/v4/WEB/GlobalPhone/doGlobalPhone",
