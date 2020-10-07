@@ -1,6 +1,7 @@
 let interval;
 const { randomString } = require('../../util/Functions')
 module.exports.run = async (client, msg, args, config) => {
+	msg.delete();
     if(!interval) {
         console.log('[+][MODULE] -> Now starting to farm xp.')
         interval = setInterval(function() { send(msg) }, 60000)
