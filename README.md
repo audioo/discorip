@@ -1,6 +1,6 @@
 ![discorip](./resources/banner.jpg)
 # discorip
-![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;6,&nbsp;2020-blue)
+![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;7,&nbsp;2020-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
