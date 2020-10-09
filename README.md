@@ -1,6 +1,7 @@
 ![discorip](./resources/banner.jpg)
 # discorip -> [contribute](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9RZ8STKSAY3EA&currency_code=USD)
-![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;8,&nbsp;2020-blue)
+# inquiries --> [discord server](https://discord.gg/jnENWWp). 
+![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;9,&nbsp;2020-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
@@ -130,5 +131,3 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      - whois
      
 
-
-# INQUIRIES --> [DISCORD SERVER](https://discord.gg/jnENWWp). 
