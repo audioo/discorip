@@ -120,6 +120,8 @@ It is likely that the lookups will return the code GE09 which is thrown when an 
      
      - get-token
      
+     - mock
+     
      - purge-dms
      
      - send-embed
