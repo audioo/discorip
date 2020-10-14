@@ -1,7 +1,7 @@
 ![discorip](./resources/banner.jpg)
 # discorip -> [contribute](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9RZ8STKSAY3EA&currency_code=USD)
 # inquiries --> [discord server](https://discord.gg/jnENWWp). 
-![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;9,&nbsp;2020-blue)
+![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;13,&nbsp;2020-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
