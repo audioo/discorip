@@ -10,7 +10,7 @@ module.exports.run = (client, msg, args, config) => {
 	embed.addField(`Features`, `- No Nonsense\n- Easy Setup\n- Raid Tools\n- Lookups (email, ipv4, phone, etc...)\n- Custom Status\n- Hidden Server Information\n- User Information\n- Bot Farming\n- DM Tools\n- More to come!`, false);
 	embed.addField(`Repository`, `https://github.com/audioo/discorip`, true);
 	embed.addField(`Server`, `https://discord.gg/jnENWWp`, true);
-	embed.addField(`Contact`, `audio#0001`, true);
+	embed.addField(`Contact`, `audio#6977`, true);
     embed.setColor(config.color);
 	embed.setFooter("discorip version " + config.version, 'attachment://rightarrow.png');
 	embed.setTimestamp();
