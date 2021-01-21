@@ -1,6 +1,6 @@
 ![discorip](./resources/banner.jpg)
 # inquiries --> [discord server](https://discord.gg/jnENWWp). 
-![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-october&nbsp;13,&nbsp;2020-blue)
+![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-january&nbsp;21,&nbsp;2021-blue)
 
 ## Utilitarian Selfbot made in NodeJS.
 
@@ -20,7 +20,7 @@
 
 ## Installation 
 
-1. Visit https://nodejs.org/en/ and download version 10+.
+1. Visit https://nodejs.org/en/ and download version 12.19.0.
 2. Download and extract the contents of [this repository](https://github.com/audioo/discorip/).
 3. Navigate to the extracted folder, then into the child folder 'util' and open **config.json** in your preferred text editor.
 4. Fill in the token field with your discord token. Save your changes and then exit the file.
@@ -38,7 +38,7 @@
 6. All done!
 
 **NOTE**
-It is likely that the lookups will return the code GE09 which is thrown when an account isnt being recognized or doesnt exist. In the case of not being recognized, that occurs sometimes when an is just made. It takes up to 3-4 hours for the account keys to be replicated arcross the array.
+It is likely that the lookups will return the code GE09 which is thrown when an account isn't being recognized or doesnt exist. In the case of not being recognized, that occurs sometimes when an account is just made. It takes up to 3-4 hours for the account keys to be replicated across all of the arrays.
 
 ## Extras
 
