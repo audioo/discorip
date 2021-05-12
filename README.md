@@ -1,7 +1,4 @@
 ![discorip](./resources/banner.jpg)
-# inquiries --> [discord server](https://discord.gg/jnENWWp). 
-![s](https://img.shields.io/badge/release-v2.1-blue) ![s](https://img.shields.io/badge/last&nbsp;commit-january&nbsp;21,&nbsp;2021-blue)
-
 ## Utilitarian Selfbot made in NodeJS.
 
 **DISCLAIMER:** Automating normal user accounts (generally called "self-bots") outside of the OAuth2/bot API is forbidden, and can result in an account termination if found. Read the article [here](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots-)
@@ -21,7 +18,7 @@
 ## Installation 
 
 1. Visit https://nodejs.org/en/ and download version 12.19.0.
-2. Download and extract the contents of [this repository](https://github.com/audioo/discorip/).
+2. Download and extract the contents of [this repository](https://github.com/maraudery/discorip/).
 3. Navigate to the extracted folder, then into the child folder 'util' and open **config.json** in your preferred text editor.
 4. Fill in the token field with your discord token. Save your changes and then exit the file.
 5. Run **install.bat**. If this doesn't work, open CMD and navigate to the project folder, then type **npm install** and press **Enter**.
