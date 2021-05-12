@@ -8,9 +8,8 @@ module.exports.run = (client, msg, args, config) => {
 	embed.setThumbnail('attachment://ticon.png');
     embed.setDescription(`Selfbot created using NodeJS, with a purely utilitarian take on selfbots.`);
 	embed.addField(`Features`, `- No Nonsense\n- Easy Setup\n- Raid Tools\n- Lookups (email, ipv4, phone, etc...)\n- Custom Status\n- Hidden Server Information\n- User Information\n- Bot Farming\n- DM Tools\n- More to come!`, false);
-	embed.addField(`Repository`, `https://github.com/audioo/discorip`, true);
-	embed.addField(`Server`, `https://discord.gg/jnENWWp`, true);
-	embed.addField(`Contact`, `audio#6982`, true);
+	embed.addField(`Repository`, `https://github.com/maraudery/discorip`, true);
+	embed.addField(`Contact`, `maraudery@protonmail.com`, true);
     embed.setColor(config.color);
 	embed.setFooter("discorip version " + config.version, 'attachment://rightarrow.png');
 	embed.setTimestamp();
