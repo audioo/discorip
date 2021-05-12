@@ -54,7 +54,7 @@ module.exports.help = {
   name: "whois",
   guildOnly: true,
   usage: ";whois @user",
-  example: ";whois @audio",
+  example: ";whois @maraudery",
   group: "func",
   desc: "Gives you the information of mentioned user. <RISK:MODERATE>"
 };
