@@ -19,7 +19,7 @@ module.exports.help = {
   name: "get-avatar",
   guildOnly: true,
   usage: ";get-avatar @user",
-  example: ";get-avatar @audio",
+  example: ";get-avatar @maraudery",
   group: "func",
   desc: "Gives you the avatar of mentioned user. <RISK:MODERATE>"
 };
