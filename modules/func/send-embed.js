@@ -12,7 +12,7 @@ module.exports.run = async (client, msg, args, config) => {
 module.exports.help = {
     name:"send-embed",
     usage:";send-embed <message>",
-    example:";send-embed audio got da swag",
+    example:";send-embed maraudery got da swag",
     ownerOnly: true,
     group: "func",
     desc:"Returns an embed with your message.."
