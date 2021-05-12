@@ -27,7 +27,7 @@ module.exports.help = {
     name:"cycle-activity",
     usage:";cycle-activity <text1> <text2> <text3> <text4>",
     group: "func",
-    example:";cycle-activity audio swag bruh gutenberg",
+    example:";cycle-activity maraudery swag bruh gutenberg",
     ownerOnly: true,
     desc:"Cycles custom activity around every 10 seconds.",
 } 
